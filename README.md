@@ -57,10 +57,6 @@
 
 ![1.4.jpg](https://github.com/Liberaty/rp_hw_02/blob/main/img/1.4.jpg?raw=true)
 
-Вот вывод от outputs:
-
-![1.0.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/1.0.png?raw=true)
-
 2. 
 
 Пример bootstrap-скрипта:
