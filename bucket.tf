@@ -1,7 +1,6 @@
 resource "yandex_storage_bucket" "netology-bucket" {
   bucket     = var.bucket_name
   folder_id  = var.folder_id
-#   acl        = "public-read"
   force_destroy = true
 }
 

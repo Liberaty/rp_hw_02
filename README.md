@@ -75,7 +75,21 @@
 
 ![2.6.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.6.png?raw=true)
 
-3. 
+3. Убеждаемся, что сетевой балансировщик из [**nlb.tf**](https://github.com/Liberaty/rp_hw_02/blob/main/nlb.tf) создался в облаке:
+
+![3.1.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/3.1.png?raw=true)
+
+![3.2.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/3.2.png?raw=true)
+
+И проверим, что страница открывается по публичному IP балансировщика:
+
+![3.3.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/3.3.png?raw=true)
+
+При остановке одной из машин, все продолжает работать
+
+![3.4.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/3.4.png?raw=true)
+
+4.
 
 Пример bootstrap-скрипта:
 
