@@ -89,7 +89,14 @@
 
 ![3.4.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/3.4.png?raw=true)
 
-4.
+4. Убеждаемся, что Application Load Balancer из [**alb.tf**](https://github.com/Liberaty/rp_hw_02/blob/main/alb.tf) успешно создался
+
+![4.1.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/4.1.png?raw=true)
+
+И проверяем, что страница открывается по публичному IP alb:
+
+![4.2.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/4.2.png?raw=true)
+
 
 Пример bootstrap-скрипта:
 
