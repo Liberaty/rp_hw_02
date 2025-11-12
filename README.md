@@ -57,7 +57,25 @@
 
 ![1.4.jpg](https://github.com/Liberaty/rp_hw_02/blob/main/img/1.4.jpg?raw=true)
 
-2. 
+2. Убеждаемся, что создалась группа из трех ВМ в public подсети:
+
+![2.0.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.0.png?raw=true)
+
+![2.1.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.1.png?raw=true)
+
+![2.2.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.2.png?raw=true)
+
+![2.3.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.3.png?raw=true)
+
+   Проверяем, что страница доступна по публичному IP каждой из ВМ:
+
+![2.4.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.4.png?raw=true)
+
+![2.5.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.5.png?raw=true)
+
+![2.6.png](https://github.com/Liberaty/rp_hw_02/blob/main/img/2.6.png?raw=true)
+
+3. 
 
 Пример bootstrap-скрипта:
 
