@@ -10,12 +10,12 @@ output "instance_group_instances" {
   value = yandex_compute_instance_group.lamp-group.instances[*].network_interface[0].nat_ip_address
 }
 
-# output "alb_dns_name" {
-#   value = try(
-#     one([
-#       for endpoint in yandex_alb_load_balancer.alb.listener[*].endpoint[*].address[*].external_ipv4_address[*].address
-#       : endpoint
-#     ]),
-#     null
-#   )
-# }
+output "alb_dns_name" {
+  value = try(
+    one([
+      for endpoint in yandex_alb_load_balancer.alb.listener[*].endpoint[*].address[*].external_ipv4_address[*].address
+      : endpoint
+    ]),
+    null
+  )
+}
